@@ -1,0 +1,30 @@
+{
+  "name": "basic-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpencerTower/basic-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpencerTower/basic-api-server/issues"
+  },
+  "homepage": "https://github.com/SpencerTower/basic-api-server#readme",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.13.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.1"
+  }
+}
